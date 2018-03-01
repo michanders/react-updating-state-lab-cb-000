@@ -16,9 +16,12 @@ export default class YouTubeDebugger extends React.Component {
     };
   }
 
-  handleClick = () => {
+  bitClick = () => {
     this.setState({
-      
+      settings: {
+        ...this.state.settings,
+        bitrate: 12
+      }
     })
   }
 
