@@ -1,20 +1,19 @@
 
 import React from 'react';
- 
+
 export default class ClickityClick extends React.Component {
   constructor() {
     super();
- 
-    // Define the initial state:
+
     this.state = {
-      hasBeenClicked: false,
+      timesClicked: 0,
     };
   }
- 
+
   handleClick = () => {
     // Update our state here...
   }
- 
+
   render() {
     return (
       <div>
