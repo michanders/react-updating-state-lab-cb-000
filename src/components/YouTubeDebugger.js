@@ -18,14 +18,14 @@ export default class YouTubeDebugger extends React.Component {
 
   handleClick = () => {
     this.setState({
-      timesClicked: this.state.timesClicked++
+      
     })
   }
 
   render() {
     return (
       <div>
-        <button onClick={this.handleClick}>Click me!</button>
+        <button class = "bitrate" onClick={this.bitClick}>Click me!</button>
       </div>
     );
   }
