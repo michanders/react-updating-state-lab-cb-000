@@ -12,7 +12,7 @@ export default class ClickityClick extends React.Component {
 
   handleClick = () => {
     this.setState({
-      timesClicked++
+      timesClicked: this.state.timesClicked++
     })
   }
 
